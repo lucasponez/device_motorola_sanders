@@ -125,6 +125,21 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     copybit.msm8953 \
     gralloc.msm8953 \
+
+#Dirac
+PRODUCT_PACKAGES += \
+     Dirac
+
+# Display/Graphics
+PRODUCT_PACKAGES += \
+    copybit.msm8996 \
+    gralloc.msm8996 \
+    hwcomposer.msm8996 \
+    memtrack.msm8996 \
+    libdisplayconfig \
+    liboverlay \
+    libqdMetaData.system \
+    libtinyxml \
     android.hardware.graphics.allocator@2.0-impl \
     android.hardware.graphics.allocator@2.0-service \
     android.hardware.graphics.composer@2.1-impl \
