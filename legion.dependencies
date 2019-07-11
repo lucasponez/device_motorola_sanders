@@ -1,0 +1,22 @@
+[
+  {
+    "repository":  "legionos-devices/kernel_motorola_msm8953",
+    "target_path": "kernel/motorola/msm8953",
+    "branch":      "pie"
+  },
+  {
+    "repository":  "legionos-devices/vendor_motorola_sanders",
+    "target_path": "vendor/motorola/sanders",
+    "branch":      "pie"
+  },
+  {
+    "repository":  "legionos-devices/device_motorola_sanders",
+    "target_path": "device/motorola/sanders",
+    "branch":      "pie"
+  }, 
+  {
+    "repository":  "PixelExperience/packages_resources_MotoActions",
+    "target_path": "packages/resources/MotoActions",
+    "branch":      "pie"
+  }
+]
