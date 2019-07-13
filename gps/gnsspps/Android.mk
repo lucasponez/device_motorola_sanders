@@ -1,4 +1,3 @@
-ifneq ($(BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE),)
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
@@ -33,4 +32,4 @@ LOCAL_MODULE := libgnsspps_headers
 LOCAL_EXPORT_C_INCLUDE_DIRS := $(LOCAL_PATH)
 include $(BUILD_HEADER_LIBRARY)
 
-endif
+
