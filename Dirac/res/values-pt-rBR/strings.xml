@@ -17,7 +17,7 @@
 -->
 <resources>
     <!-- Dirac settings -->
-    <string name="dirac_title">Mi Sound Enhancer</string>
+    <string name="dirac_title">Som da Porra</string>
     <string name="dirac_summary">Otimizar qualidade de áudio</string>
     <string name="dirac_headset_title">Escolher tipo de fone de ouvido</string>
     <string name="dirac_preset_title">Escolha uma predefinição</string>
@@ -56,4 +56,8 @@
     <string name="dirac_preset_country">Country</string>
     <string name="dirac_preset_dance">Dance</string>
     <string name="dirac_preset_metal">Metal</string>
+</resources>
+
+    <!-- QS tile title -->
+    <string name="dirac_qs_tile_title">Som da Porra</string>
 </resources>
