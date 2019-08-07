@@ -320,7 +320,3 @@ persist.radio.data_lte_sys_ind=1
 # Create Swap disk, if below sys-prop enabled & also if device has lower (< 1 GB) RAM
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.swap=true
-
-# GPS
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.location.osnlp.region.package=com.google.android.gms
