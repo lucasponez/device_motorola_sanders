@@ -23,14 +23,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk
 $(call inherit-product, device/motorola/sanders/device.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/aicp/config/common_full_phone.mk)
+$(call inherit-product, vendor/nitrogen/products/common.mk)
 
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := sanders
-PRODUCT_NAME := aicp_sanders
+PRODUCT_NAME := nitrogen_sanders
 PRODUCT_BRAND := motorola
 PRODUCT_MANUFACTURER := motorola
 
@@ -39,10 +39,6 @@ PRODUCT_SYSTEM_PROPERTY_BLACKLIST := ro.product.model
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="Moto G5S Plus" \
     PRIVATE_BUILD_DESC="sanders-user 8.1.0 OPS28.65-36 9fea release-keys"
-
-# AICP Device Maintainers
-PRODUCT_BUILD_PROP_OVERRIDES += \
-DEVICE_MAINTAINERS="Lucas Ponez (Pintoslp)"
 
 # for specific
 $(call inherit-product, vendor/motorola/sanders/sanders-vendor.mk)
