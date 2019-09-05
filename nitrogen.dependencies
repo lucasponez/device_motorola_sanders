@@ -1,0 +1,42 @@
+[
+  {
+    "repository":  "lucasponez/kernel_motorola_msm8953",
+    "target_path": "kernel/motorola/msm8953",
+    "branch":      "pie"
+  },
+  {
+    "repository":  "lucasponez/vendor_motorola_sanders",
+    "target_path": "vendor/motorola/sanders",
+    "branch":      "pie"
+  },
+  {
+    "repository":  "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch":      "lineage-16.0"
+  },
+  {
+    "repository":  "LineageOS/android_system_qcom",
+    "target_path": "system/qcom",
+    "branch":      "lineage-16.0"
+  },
+  {
+    "repository":  "LineageOS/android_hardware_qcom_fm",
+    "target_path": "hardware/qcom/fm",
+    "branch":      "lineage-16.0"
+  },
+  {
+    "repository":  "AICP/packages_apps_FMRadio",
+    "target_path": "packages/apps/FMRadio",
+    "branch":      "p9.0"
+  },
+  {
+    "repository":  "nitrogen-project/android_hardware_qcom_wlan-caf",
+    "target_path": "hardware/qcom/wlan-caf",
+    "branch":      "p"
+  },
+  {
+    "repository":  "PixelExperience/packages_resources_MotoActions",
+    "target_path": "packages/resources/MotoActions",
+    "branch":      "pie"
+  }
+]
